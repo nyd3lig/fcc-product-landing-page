@@ -1,0 +1,246 @@
+
+
+
+
+body {
+    
+    font-family: 'Lakki Reddy', cursive;
+    margin: 0;
+    background-color: #FDFCFC;
+}
+/* links */
+a {
+    color: #F8F7F7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BEB6B8;
+}
+
+#top-handle {
+    position: absolute;
+    top: 0;
+}
+/* header */
+#header {
+    position:fixed;
+    top: 0;
+    background-color: #231F20;
+    color: #F8F7F7;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arimo', sans-serif;
+    justify-content: space-between;
+    padding: calc(10px + 0.1vh);
+    
+    
+}
+
+#header-img {
+    margin: auto 55px;
+    width: calc(80px + 2vw);
+ 
+  
+    
+}
+
+/* Nav bar */
+#nav-bar {
+    display: inline;
+    margin: auto 55px;
+    
+    
+}
+li {
+    display: inline;
+}
+
+.nav-link {
+    margin-left: 4vw;
+    font-size: calc(10px + 0.5vw);
+}
+/* main */
+main{
+    width: 70vw;
+    margin: auto;
+    
+}
+
+/* Hero section */
+#hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8em;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 4vw;
+    line-height: 94.31%;
+    font-weight: normal;
+    }
+h1 .h1-size{
+    font-size: 5vw;
+}
+#hero-section p {
+    font-size: 1.1vw;
+    font-family: 'Arimo', sans-serif;
+    line-height: calc(20px + 0.5vh);
+    letter-spacing: 0.005em;
+    margin: 0;
+    
+}
+
+
+#hero-image {
+    width: calc(100px + 30vw);
+    height: auto;
+    
+   }
+
+
+   /* Video section */
+#video-section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#video-section h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 3vw;
+    margin-top: 120px;
+}
+
+.video {
+    width: 80vw;
+    height: 40vw;
+    border-radius: 4px;
+}
+
+/* form section */
+#form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+#form-section h2 {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: calc(20px + 1vw);
+   
+}
+
+#email {
+    margin: 55px auto 0 auto;
+    display: block;
+    width: calc(200px + 20.5vw);
+    height: 59px;
+    border: #231F20 2px solid;
+    border-radius: 5px;
+    padding: calc(10px + 0.5vh);
+    font-size: calc(12px + 0.4vw);
+    
+}
+::placeholder {
+    color:#231f23;
+}
+
+#submit {
+    display: block;
+    width: calc(150px + 5.5vw);
+    height: 59px;
+    font-family: 'Arimo', sans-serif;
+    font-size: calc(12px + 0.4vw);
+    text-transform: capitalize;
+    border: 2px solid #231F20;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 75px auto 30vh auto;
+    padding: calc(10px + 0.5vh);
+}
+
+#submit:hover {
+    background-color: #EEECED;
+    color: #3E3739;
+}
+
+/* footer */
+.copyright {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: calc(8px + 0.3vw);
+    margin: 2vh 3vw;
+    opacity: 30%;
+}
+
+@media screen and (max-width: 520px) {
+    /* header */
+    #header {
+        position:fixed;
+        top: 0;
+        background-color: #231F20;
+        color: #F8F7F7;
+        width: 100vw;
+        height: calc(20px + 2vh);
+        display: flex;
+        flex-direction: row;
+        font-family: 'Arimo', sans-serif;
+        justify-content: space-between;
+        padding: calc(5px + 0.1vh);
+        
+        
+    }
+    
+    #header-img {
+        
+        width: calc(60px + 0.5vw);
+        margin: auto 20px;
+     
+      
+        
+    }
+    
+    /* Nav bar */
+    #nav-bar {
+        display: inline;
+        margin: auto 20px;
+        
+        
+    }
+    ul {
+        margin: 0;
+    }
+    li {
+        display: inline;
+    }
+    
+    .nav-link {
+        margin: auto 2vw;
+        font-size: calc(10px + 0.5vw);
+    }
+    /* main */
+    main{
+        width: 70vw;
+        margin: auto;
+        
+    }
+    
+
+    /* hero section */
+    #hero-image {
+        width: calc(50px + 30vw);
+        height: auto;
+        
+       }
+    }
+    /*end of media query */
