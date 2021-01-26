@@ -19,6 +19,7 @@ So I made some designs in figma which can be found in the design-mockups folder.
 Before starting this, I watched a short video on responsive design which mentioned the units VH and VW and combining them with the pixel unit using some calc() function.
 
 So I was playing a little bit around with that, and overall it made things more responsive than what I have made previously.
+(But I definitely think I should have made more use of media queries)
 
 But I still feel like the responsive web development subject is a little over my head at the moment, but regardless it was fun trying.
 
