@@ -1,6 +1,9 @@
+Live: https://nyd3lig.github.io/fcc-product-landing-page/
+______________________________________________________________________
+
 This is a project from the freecodecamp curriculum called Build a Product Landing Page.
 
-Live: https://nyd3lig.github.io/fcc-product-landing-page/
+
 
 The fonts I used are Lakki Reddy and Arimo.
 The illustration is from absurd.design.
